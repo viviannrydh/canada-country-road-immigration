@@ -1,44 +1,891 @@
+body{
+  box-sizing: border-box; 
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: Tahoma/ Verdana/ Arial,;
+  line-height: 2em;
+  background-color: rgb(241, 248, 250);
+  /*background: 
+  
+    linear-gradient(
+      rgba(190, 176, 176, 0.8), 
+      rgba(165, 142, 112, 0.8)
+    ),
+   
+    url('http://file.wantu8.com/png1/im/x1572d.jpg');
+    background-size:auto;
+    background-repeat: repeat;*/
+  }
+
+/*Header.js*/
 .header-wrapper{
   width:100%;
-  height:60px;
+  height:30%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding:20px;
-  padding-bottom: 100px;
-  background-color: rgb(243, 238, 236);
+  background-color:  rgb(38, 76, 119);
   color:white;
 }
+.logo-img{
+  width: 22%;
+  height:120px;
+}
 
+.links-wrapper{
+  display:flex;
+  flex-direction: row;
+  width:40%;
+  justify-content: space-evenly;
+  padding-top: 4%;
+  margin-left: 35%;
+}
+.link{
+  text-decoration: none;
+  list-style: none;
+  color:rgb(248, 244, 244);
+  font-size: 1.3em;
+}
+
+/*Slideshow.js*/
+
+.slide-show{
+  width:100%;
+}
+
+.slide-show img{
+  position: absolute;
+  animation:slide-show 20s infinite;
+  opacity: 0;
+  height:700px;
+}
+.slide-show section{
+  position:relative;
+  background: rgb(21, 3, 102); 
+  background: rgba(13, 2, 114, 0.8); 
+  color: #f1f1f1;
+  width: 200px;
+  height:200px;
+  padding:3%;
+  text-align: center;
+  font-size: 1.1em;
+  background-color:#910f00; 
+  -moz-border-radius: 50px 30px 10px 0px;
+  -webkit-border-radius: 50px 30px 10px 0px;
+  border-radius: 50px 30px 10px 0px;
+  border-radius:10px 100px / 120px;;
+  
+}
+@keyframes slide-show {
+  25%{opacity:1;}
+  40%{opacity:0;}
+}
+.slide-show img:nth-child(1){animation-delay:0s;}
+.slide-show img:nth-child(2){animation-delay:4s;}
+.slide-show img:nth-child(3){animation-delay:8s;}
+.slide-show img:nth-child(4){animation-delay:12s;}
+.slide-show img:nth-child(5){animation-delay:16s;}
+.slide-show img:nth-child(6){animation-delay:20s;}
+.slide-show img:nth-child(7){animation-delay:24s;}
+
+
+/*Home.js*/
+.content-section{
+  padding-top:30%;
+  width:90%;
+  padding-left: 5%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.company-introduction,
+.process,
+.ICCRC,
+.RCIC
+{
+  width:20%;
+  height: 320px;
+  background-color: rgb(193, 214, 225);
+  text-align: center;
+  padding:10px;
+  margin-bottom:10px;
+  color:rgb(7, 2, 59);
+  box-shadow: 0 10px 20px rgba(133, 161, 212, 0.19), 0 6px 6px rgba(143, 182, 235, 0.23);
+}
+
+.company-introduction:hover
+{
+  background-color: rgb(151, 185, 212);
+}
+.process:hover
+{
+  background-color: rgb(151, 185, 212);
+}
+
+.ICCRC:hover
+{
+  background-color: rgb(151, 185, 212);
+}
+
+.RCIC:hover{
+  background-color: rgb(151, 185, 212);
+}
+
+.card:hover{
+  background-color: rgb(151, 185, 212);
+}
+
+
+.moreBtn{
+  background-color: rgb(241, 248, 250);
+  height:2.5em;
+  border-radius: 10%;
+  color:rgb(3, 41, 87);
+  font-weight:bold;
+  margin-top: 15%;
+}
+
+.detail-btn{
+  margin-top: 2%;
+}
+.process-btn{
+  margin-top: 30%;
+}
+
+
+.youtube-link{
+  background-color: rgb(204, 198, 198);
+  height: 50px;
+}
+
+.RCIC-section{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content: flex-end;
+}
+
+.RCIC-homeImg{
+  width: 20%;
+  margin-left: 35%;
+}
 .cards-section{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin:10px;
-  margin-left:25px;
-  margin-top: 25px;
+  align-items: center;
+  width:100%;
+  margin-top: 5%;
+  padding-left:4%;
+  margin-bottom: 5%;
 }
 
 .card{
-  margin:5px;
+  width:20%;
+  height:450px;
+  margin:16px;
+  text-align: center;
+  padding:10px;
+  background-color:  rgb(190, 212, 224);
+  color:rgb(7, 2, 59);
+  box-shadow: 0 10px 20px rgba(133, 161, 212, 0.19), 0 6px 6px rgba(143, 182, 235, 0.23);
+}
+.card-img{
+  width:100%;
+  height:50%;  
+}
+/*introduction.js*/
+.company-introduction-serviceFlow{
+  padding:0 ;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border:1px solid darkblue;
+  color: rgb(2, 2, 53);
+}
+.company-information{
+  width: 30%;
+  padding:0 5%;
+  background-color:rgb(219, 229, 241);
+}
+.service-flow{
+  width:50%;
+  padding:0 5%;
+  background-color:  rgb(243, 248, 250);;
+}
+.authority-agencies{
+  padding:0 ;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border:1px solid darkblue;
+  color: rgb(2, 2, 53);
 }
 
+.ICCRC-box{
+  width:40%;
+  padding-left: 5%;
+  padding-top: 4%;
+  padding-right: 5%;
+  background-color:rgb(219, 229, 241);
+}
+
+.RCIC-box{
+  width:40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(243, 248, 250);
+
+}
+.RCIC-box img{
+  width:100%;
+  margin-top: 15%;
+}
+
+
+
+/*Temporary Residence.js*/
+.serviceWrapper{
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.service-card{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1%;
+  color:rgb(1, 1, 54);
+  padding: 3%;
+  padding-left: 5%;
+  text-align: flex-start;
+}
+#pointer {
+  display: inline-block;
+  font-size: 1em;
+  padding:0.5em;
+  width: 45%;
+  position: relative;
+  background: rgb(177, 197, 220);
+  text-align: center;
+  vertical-align: middle;
+  margin: 0.6em;
+}
+#pointer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1.25em solid rgb(244, 245, 247);
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+}
+#pointer:before {
+  content: "";
+  position: absolute;
+  right: -1.25em;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1.25em solid rgb(7, 82, 143);
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+}
+
+.cnt {
+  position: relative;
+  color: rgb(1, 2, 32);
+  padding: 3%;
+  text-align: left;
+}
+.cnt p
+.cnt li{
+  font-size:1.2em;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+#pointer-mini {
+  display: inline-block;
+  width: 10%;
+  height: 4em;
+  margin-top: 120px;
+  margin-right:20px;
+  position: relative;
+  background:rgb(147, 172, 201);
+  text-align: center;
+  vertical-align: middle;
+}
+#pointer-mini:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1.25em solid white;
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+}
+#pointer-mini:before {
+  content: "";
+  position: absolute;
+  right: -1.25em;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1.25em solid rgb(28, 82, 143);
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+}
+#pointer-mini{
+  text-align: center;
+  color:white;
+}
+
+
+/* permanentResidence.js*/
+.content-wrapper-service{
+  width:80%;
+  margin-left: 10%;
+  padding-top: 2%;
+  color:rgb(1, 1, 51)
+}
+h2{
+  text-align: center;
+  color:rgb(4, 4, 126);
+  text-shadow:1px 1px rgb(134, 152, 190);
+
+}
+
+/*citizenship*/
+
+.change-mapleLeafCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.change-mapleLeafCard img{
+  width:50%;
+  height:200px;
+}
+
+/*Travel*/
+.travel-wrapper {
+  position: relative;
+  text-align: center;
+}
+.travel-content {
+  background-color: rgba(4, 106, 126, 0.5);
+  position: absolute;
+  top: 21%;
+  left: 56%;
+  /*transform: translate(-30%, -30%);*/
+  padding:5%;
+  color:rgb(240, 244, 245);
+}
+
+
+
+/*Contact.js*/
+.contact-detail{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color:  rgb(233, 242, 252);
+  color:rgb(1, 41, 68);
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 5%;
+  font-size: 1em;
+  margin-bottom: 5%;
+}
+
+
+.contact-detail-text{
+  width:45%;
+  line-height: 2;
+  margin-left:2%;
+
+}
+.google-map{
+  width:90%;
+  margin-top:6%
+}
+
+.QR{
+  width:220px;
+  height:200px;
+  margin-left: 20%;
+}
+.contact-form{
+  width:50%;
+  padding-left:2%;
+}
+
+.input-item,
+.input-area{
+  display:flex;
+  flex-direction: column;
+}
+
+.input-item input{
+  height:3em
+}
+
+.input-area textarea{
+  height:12em
+}
+
+.submit-button{
+  width:6em;
+  height:3em;
+  margin-top: 4%;
+  color:white;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: rgb(4, 87, 31);
+}
+
+.submit-success-text{
+  background-color: rgb(38, 76, 119);
+  width:400px;
+  height:300px;
+  color:white;
+  padding:20px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.submit-success-text button{
+  width:80px;
+  height:40px;
+  background-color: darkred;
+  color:white;
+  font-size: 15px;
+}
+/*Aboutus.js*/
+
+.personal-introduction{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.picture-card{
+  width:35%;
+  background-color: rgb(225, 228, 230);
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:0.5%;
+  box-shadow: 2px 2px rgb(199, 220, 235);
+}
+
+.selfie{
+  width:280px;
+  height:350px
+}
+
+.yang-selfie{
+  width:350px;
+  height:350px;
+  margin-left: -5%;
+}
+
+.picture-card-text{
+  padding-top: 10%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.self-introduction{
+  width:50%;
+  line-height: 1.5em;
+  font-size: 1em;
+  padding-top: 5%;
+}
+
+/*Fees container*/
+.fees-container{
+  padding:5%;
+  line-height: 2em;
+}
+/*Footer.js*/
 .footer-wrapper{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color:rgb(22, 101, 150);
-  color:white;
-  padding:20px;
+  background-color:  rgb(38, 76, 119);
   justify-content: space-around;
+  width:100%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
-.footer-link a{
+.footer-links-container
+  {
+    width:25%;
+  }
+.footer-contact-lists{
+  width:30%;
+}
+.footer-links-container a,
+.footer-title{
   text-decoration: none;
   color:white;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.1em;
+}
+.footer-contact-lists{
+  color:white;
+  list-style: none;
+  font-size: 1.1em;
+}
+
+.footer-contact-lists li a{
+  color:white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+/*------------------------------------------------------*/
+@media only screen and (max-width: 1199.98px) {
+
+  /*Home.js*/
+   
+    .logo-img{
+      width:30%;
+    }
+    .links-wrapper{
+      padding-top: 10%;
+      width:60%;
+      justify-content: center;
+      margin-left: 0;
+      padding-bottom:10%;
+    }
+  
+    .link{
+      padding:20px;
+      display: block;
+      border-bottom: 1px solid darkgrey;
+      height:20px;
+      font-size: 1em;
+    }
+  
+    
+    .slide-show img{
+      height:350px;
+    }
+    .slide-show section{
+      width:80px;
+      height:80px;
+      font-size: 0.5em;
+      background-color:  rgb(148, 27, 6);
+      line-height: 1.8em;
+    }
+    .content-section{
+      flex-direction: column;
+    }
+  
+    .company-introduction,
+    .process,
+    .ICCRC,
+    .RCIC{
+        width:90%;
+        padding-left:8%;
+    }
+  
+    .cards-section{
+      padding-left: 0.1%;
+    }
+    .card{
+     width:90%;
+     margin-left: 5%;
+     padding-top: 10px;
+    }
+  
+    .card-img{
+      width:60%;
+      height:50%;  
+    }
+    .process-btn{
+      margin-left: -12%;
+    }
+  
+    .RCIC-section{
+      background-color:none;
+    }
+    .RCIC-homeImg{
+      width: 50%;
+      margin-left: 28%;
+  
+    }
+  
+    .contact-detail{
+       margin-bottom:10%;
+    }
+  
+  }
+/*------------------------------------------------------*/
+@media only screen and (max-width: 991.98px) {
+
+/*Home.js*/
+ 
+  .logo-img{
+    width:30%;
+  }
+  
+
+  .card-img{
+    width:60%;
+    height:50%;  
+  }
+  
+
+}
+/*------------------------------------------------------*/
+@media only screen and (max-width:  767.98px) {
+
+  /*Home.js*/
+   
+    .logo-img{
+      width:30%;
+    }
+    .card{
+     width:90%;
+     margin-left: 5%;
+     padding-top: 10px;
+    }
+  
+    .card-img{
+      width:60%;
+      height:50%;  
+    }
+  } 
+/*------------------------------------------------------*/
+@media only screen and (max-width: 575.98px) {
+ 
+ body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+ }
+
+ /*Home.js*/
+  .header-wrapper{
+    width:100%;
+    margin-right: 0;
+  }
+  .logo-img{
+    width:100%;
+    height: 120px;
+    margin-bottom: -30px;
+
+  }
+  .links-wrapper{
+    padding-top: 10%;
+    width:100%;
+    justify-content: center;
+    margin-left: 0;
+    padding-bottom:10%;
+  }
+
+  .link{
+    padding:5px;
+    display: block;
+    border-bottom: 1px solid darkgrey;
+    height:40px;
+    font-size: 1em;
+  }
+
+  
+  .slide-show img{
+    height:200px;
+  }
+  .slide-show section{
+    width:80px;
+    height:80px;
+    font-size: 0.5em;
+    background-color:  rgb(148, 27, 6);
+    line-height: 1.8em;
+  }
+  .content-section{
+    flex-direction: column;
+  }
+
+  .company-introduction,
+  .process,
+  .ICCRC,
+  .RCIC{
+      width:90%;
+      padding-left:8%;
+  }
+
+  .cards-section{
+    padding-left: 0.1%;
+  }
+  .card{
+   width:100%;
+   margin-left: 5%;
+   padding-top: 10px;
+  }
+
+  .card-img{
+    width:100%;
+    height:50%;  
+  }
+  .process-btn{
+    margin-left: -12%;
+  }
+
+  .RCIC-section{
+    background-color:none;
+  }
+  .RCIC-homeImg{
+    width: 50%;
+    margin-left: 28%;
+
+  }
+
+  /*Introduction*/
+
+  .company-information{
+    width:100%;
+  }
+  .service-flow{
+    width:100%;
+  }
+  
+ /*Temporary residence.js */
+ .service-card{
+  width:90%;
+  flex-direction: column;
+  background-color:white;
+  margin-left: -5%;
+
+}
+
+#pointer {
+  width: 100%;
+}
+#pointer-mini {
+  width: 30%;
+  margin-left: 32%;
+  margin-top: 5%;
+}
+  /*travel*/
+  .travel-content {
+    background-color: rgba(2, 81, 97, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-3%, -50%);
+    padding:5%;
+    color:rgb(240, 244, 245);
+  }
+
+
+  /*contact.js*/
+  .contact-detail{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:5%;
+    font-size: 0.9em;
+  }
+  .google-map{
+    width:100%;
+    display: block;
+    margin-bottom:6%
+  }
+  .QR{
+    margin-top: 5px;
+    margin-left: 15%;
+  }
+  .contact-detail-text{
+    width:90%;
+    line-height: 2;
+    margin-bottom: 10%;
+  }
+  .contact-form{
+    width:90%;
+  }
+
+
+  /* About us*/
+  .picture-card{
+    width:100%;
+  }
+  
+  .picture-card-text{
+    padding-top: 3%;
+  }
+  .selfie{
+    width:310px;
+    height:350px;
+    border-radius: 50%;
+  }
+  .yang-selfie{
+    margin-left: 0;
+    width:310px;
+    height:310px;
+    border-radius: 50%;
+  }
+  .self-introduction{
+    width:90%;
+    padding-top: 10%;
+  }
+
+  /*fees*/
+  
+  .fees-container{
+    padding-top: 10%;
+  }
+/*Introduction.js*/
+  .ICCRC-box{
+    width:100%;
+    padding-top: 5%;
+    padding-left: 4%;
+  }
+  .RCIC-box{
+    width:100%;
+  }
+
+  .RCIC-box img{
+    width:100%;
+    margin-top: 3%;
+  }
+
+  /*footer.js*/
+  .footer-wrapper{
+    width:95%;
+    margin-top: 2%;
+    font-size: 0.8em;
+  }
+  .footer-links-container,
+  .footer-contact-lists{
+    width:100%;
+    text-align: center;
+  }
 
 }
