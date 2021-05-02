@@ -11,6 +11,14 @@ const Contact = () => {
     const [userTel, setUserTel]=useState('');
     const [userEmail, setUserEmail]=useState('');
     const [userMessage, setUserMessage]=useState('');
+    
+    const handleChange=(e)=>{
+        setUserName(e.target.value);
+        setUserCity(e.target.value);
+        setUserTel(e.target.value);
+        setUserEmail(e.target.value);
+        setUserMessage(e.target.value)
+    }
 
     const handleSubmit=(e)=>{
         e.preventDefault();
@@ -42,23 +50,23 @@ const Contact = () => {
                             </div>
                             <div className="input-item">
                                 <p>姓名: </p>
-                                <input type="text" name="userName" />
+                                <input type="text" name="userName" onChange={handleChange}/>
                             </div>
                             <div className="input-item">
                                 <p>您所在的城市: </p>
-                                <input type="text" name="userCity" />
+                                <input type="text" name="userCity" onChange={handleChange}/>
                             </div>
                             <div className="input-item">
                                 <p>您的电话: </p>
-                                <input type="text" name="userTel" />
+                                <input type="text" name="userTel" onChange={handleChange}/>
                             </div>
                             <div className="input-item">
                                 <p>您的邮箱: </p>
-                                <input type="text" name="userEmail" />
+                                <input type="text" name="userEmail" onChange={handleChange}/>
                             </div>
                             <div className="input-area">
                                 <p>需要帮助的问题: </p>
-                                <textarea type="text" name="userMessage" />
+                                <textarea type="text" name="userMessage" onChange={handleChange}/>
                             </div>
                             <button className='submit-button' type="submit">提交</button>
                </form>

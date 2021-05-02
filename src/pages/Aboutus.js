@@ -13,7 +13,7 @@ const Aboutus = () => {
                     <div className="picture-card-text">
                         <h2>高蜀梅</h2>
                         <p><strong>加拿大注册移民顾问</strong></p>
-                        <p><a href="https://iccrc-crcic.ca/"  target="_blank">Verify Status with ICCRC</a></p>
+                        <p><a href="https://iccrc-crcic.ca/"  target="_blank" rel="noreferrer">Verify Status with ICCRC</a></p>
                     </div>
                 </div>
                 <article className="self-introduction">

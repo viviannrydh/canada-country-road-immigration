@@ -16,7 +16,7 @@ const PermanentResidence = () => {
                 <ol>
                     <li>打算居住在魁北克以外的省份</li>
                     <li>在过去10年内，有1年以上的从事同一职业的带薪的工作（或同等数量的兼职工作经验），
-                    且职位为 <a href="http://eoivisa.com/noc/"  target="_blank">http://eoivisa.com/noc/</a> NOC 0，A或者B类职位 英语或法语至少达到CLB 7级
+                    且职位为 <a href="http://eoivisa.com/noc/"  target="_blank" rel="noreferrer">http://eoivisa.com/noc/</a> NOC 0，A或者B类职位 英语或法语至少达到CLB 7级
                     </li>
                     <li>高中以上学历</li>
                     <li>资金证明, 证明您有足够的钱让您和您的家人在加拿大定居，除非您目前能够在加拿大合法工作,并从加拿大的雇主那里获得了有效的雇主信</li>
@@ -40,8 +40,8 @@ const PermanentResidence = () => {
                 <h3>加拿大经验类移民基本要求</h3>
                 <ol>
                     <li>打算居住在魁北克以外的省份</li>
-                    <li>在申请前的3年内有1年的加拿大全职工作经验（或同等数量的兼职工作经验）且职位为 <a href="http://eoivisa.com/noc/"  target="_blank">http://eoivisa.com/noc/</a> NOC 0，A或者B类职位.</li>
-                    <li>达到英语或法语要求 <a href="http://eoivisa.com/noc/"  target="_blank">http://eoivisa.com/noc/</a> NOC 0、A类的工作要求达到CLB 7级； HYPERLINK "http://eoivisa.com/noc/" NOC B类的工作要求达到CLB 5级</li>
+                    <li>在申请前的3年内有1年的加拿大全职工作经验（或同等数量的兼职工作经验）且职位为 <a href="http://eoivisa.com/noc/"  target="_blank" rel="noreferrer">http://eoivisa.com/noc/</a> NOC 0，A或者B类职位.</li>
+                    <li>达到英语或法语要求 <a href="http://eoivisa.com/noc/"  target="_blank" rel="noreferrer">http://eoivisa.com/noc/</a> NOC 0、A类的工作要求达到CLB 7级； HYPERLINK "http://eoivisa.com/noc/" NOC B类的工作要求达到CLB 5级</li>
                     <li>满足可接受性要求</li>
                 </ol>
             </section>
@@ -57,8 +57,8 @@ const PermanentResidence = () => {
                     <li>根据《移民与难民保护法》和《移民与难民保护条例》标准评估申请人的可接受性；</li>
                     <li>对其申请永久居留权的申请作出最终决定。</li>
                 </ol>
-                <p>曼尼托巴省省提名项目<a href="http://www.immigratemanitoba.com/"  target="_blank">http://www.immigratemanitoba.com/</a></p>
-                    <p>阿尔伯塔省省提名项目<a href="https://www.alberta.ca/ainp.aspx"  target="_blank">https://www.alberta.ca/ainp.aspx</a></p>
+                <p>曼尼托巴省省提名项目<a href="http://www.immigratemanitoba.com/"  target="_blank" rel="noreferrer">http://www.immigratemanitoba.com/</a></p>
+                    <p>阿尔伯塔省省提名项目<a href="https://www.alberta.ca/ainp.aspx"  target="_blank" rel="noreferrer">https://www.alberta.ca/ainp.aspx</a></p>
             </section>
             <hr/>
             <section>
