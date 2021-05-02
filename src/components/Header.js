@@ -1,89 +1,22 @@
-import React from 'react'
-import logo from '../pictures/logo group.png'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import logo from '../pictures/company-logo.jpeg';
+
 
 const Header = () => {
     return (
         <div className="header-wrapper">
-            <img src={logo} alt="logo" style={{width:'100px', height:'100px', 'margin-right':'auto'}}/>
-            <div className="btn-group">
-                <button type="button" className="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                </button>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
+            <img src={logo} alt="logo" className="logo-img" />
+            <div className="links-wrapper">
+                <Link to="/" className='link'>首页</Link>
+                <Link to="/services" className='link'>服务项目</Link>
+                <Link to="/aboutus" className='link'>关于我们</Link>
+                <Link to="/fees" className='link'>费用</Link>
+                <Link to="/contact" className='link'>联系我们</Link>
             </div>
-            <div className="btn-group">
-                <button type="button" className="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                </button>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    <hr className="dropdown-divider" />
-                    <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </div>
-            <div className="btn-group">
-                <button type="button" className="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                </button>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    <hr className="dropdown-divider" />
-                    <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </div>
-            <div className="btn-group">
-                <button type="button" className="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                </button>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    <hr className="dropdown-divider" />
-                    <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </div>
-            <div className="btn-group">
-                <button type="button" className="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                </button>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    <hr className="dropdown-divider" />
-                    <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </div>
-            <div className="btn-group">
-                <button type="button" className="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                </button>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    <hr className="dropdown-divider" />
-                    <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </div>
-            <div className="hamburger">
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
-            </div>
+            <hr/>
         </div>
     )
 }
 
-export default Header
+export default Header;
