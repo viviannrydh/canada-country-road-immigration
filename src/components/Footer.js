@@ -25,11 +25,6 @@ const Footer = () => {
                 <li>加拿大电话： +1 587-716-6969</li>
                 <li>中国电话：   +86 13401080149 (仅接收短信)</li>
                 <li>邮箱: <a href="canadacountryroadimmigration@gmail.com">canadacountryroadimmigration@gmail.com</a></li>
-                <li>微信:  </li>
-            </div>
-         
-            <div className="footer-links-container">
-            
             </div>
           
         </div>
