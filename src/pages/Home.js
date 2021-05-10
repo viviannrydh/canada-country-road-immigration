@@ -41,7 +41,7 @@ const Home = () => {
             <Services />
             <hr/>
             <div className="RCIC-section">
-                <a href="https://iccrc-crcic.ca/"  target="_blank"><img src={RCIC} alt="RCIC" className="RCIC-homeImg"/></a>
+                <a href="https://iccrc-crcic.ca/"  target="_blank" rel="noreferrer"><img src={RCIC} alt="RCIC" className="RCIC-homeImg"/></a>
             </div>
         </>
     )

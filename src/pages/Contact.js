@@ -1,16 +1,8 @@
 import React from 'react';
 import googlemap from '../pictures/googlemap.png';
 import QR from '../pictures/QR.jpeg'
-import { useState } from 'react';
-
-
 
 const Contact = () => {
-    const [userName, setUserName]=useState('');
-    const [userCity, setUserCity]=useState('');
-    const [userTel, setUserTel]=useState('');
-    const [userEmail, setUserEmail]=useState('');
-    const [userMessage, setUserMessage]=useState('');
 
     const handleSubmit=(e)=>{
         e.preventDefault();
