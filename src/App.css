@@ -147,6 +147,7 @@ body{
   color:rgb(3, 41, 87);
   font-weight:bold;
   margin-top: 15%;
+  border:1px solid rgb(38, 76, 119);
 }
 
 .detail-btn{
@@ -456,6 +457,7 @@ h2{
   font-size: 1.5em;
   font-weight: bold;
   background-color: rgb(4, 87, 31);
+  border:1px solid green;
 }
 
 .submit-success-text{
