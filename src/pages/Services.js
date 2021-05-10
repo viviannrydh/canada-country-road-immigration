@@ -13,7 +13,7 @@ const Services = () => {
                     <div className="card-body">
                         <h3 className="card-title">临时居留</h3>
                         <p className="card-text">在这里您可以查询到学生许可，工作许可等相关信息</p>
-                        <Link to="/services/temporaryresidence"><button className="moreBtn detail-btn">查看详情</button></Link>
+                        <Link to="/services/temporaryresidence"><button className="moreBtn detail-btn">查看更多</button></Link>
                     </div>
                 </div>
                 <div className="card">
@@ -22,7 +22,7 @@ const Services = () => {
                         <h3 className="card-title">永久居留</h3>
                         <p className="card-text">在这里您可以查询到关于永久居留的相关信息</p>
                         <br/>
-                        <Link to="/services/permanentresidence"><button className="moreBtn detail-btn" >查看详情</button></Link>
+                        <Link to="/services/permanentresidence"><button className="moreBtn detail-btn" >查看更多</button></Link>
                     </div>
                 </div>
                 <div className="card">
@@ -30,7 +30,7 @@ const Services = () => {
                     <div className="card-body">
                         <h3 className="card-title">入籍，枫叶卡和续签</h3>
                         <p className="card-text">在这里您可以查询到入籍，枫叶卡和续签等相关信息</p>
-                        <Link to="/services/citizenship"><button  className="moreBtn detail-btn">查看详情</button></Link>
+                        <Link to="/services/citizenship"><button  className="moreBtn detail-btn">查看更多</button></Link>
                     </div>
                 </div>
                 <div className="card">
@@ -39,7 +39,7 @@ const Services = () => {
                         <h3 className="card-title">旅游</h3>
                         <p className="card-text">加路旅行-班夫全地形深度游服务项目</p>
                         <br/>
-                        <Link to="/services/travel"><button  className="moreBtn detail-btn">查看详情</button></Link>
+                        <Link to="/services/travel"><button  className="moreBtn detail-btn">查看更多</button></Link>
                     </div>
                 </div>
             </section>
