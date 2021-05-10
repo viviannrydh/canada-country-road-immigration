@@ -15,26 +15,26 @@ const Home = () => {
                         <hr/>
                         <p>加路移民公司注册名称为Canada Country Road Immigration Inc. 
                         总部位于加拿大阿尔伯塔省卡尔加里。</p>
-                        <a href="/introduction/#company"><button className='moreBtn'>了解更多</button></a>
+                        <a href="/introduction/#company"><button className='moreBtn'>查看更多</button></a>
                     </div>
                     <div className="ICCRC">
                         <h3>ICCRC</h3>
                         <hr/>
                         <p>加拿大移民顾问监管委员会（Immigration Consultants of Canada Regulatory Council简称ICCRC）</p>
-                        <Link to="./introduction"><button className='moreBtn'>了解更多</button></Link>
+                        <Link to="./introduction"><button className='moreBtn'>查看更多</button></Link>
                     </div>
                 <div className="RCIC">
                     <h3>RCIC</h3>
                     <hr/>
                     <p>加拿大注册移民顾问（Regulated Canadian Immigration Consultant，简称RCIC)</p>
-                    <Link to="./introduction"><button className='moreBtn'>了解更多</button></Link>
+                    <Link to="./introduction"><button className='moreBtn'>查看更多</button></Link>
                 </div>
                 <div className="process">
                     <h3>服务流程</h3>
                     <hr/>
                     <ul className='process-lists'>
                         <p>第一步: 联系我们，说明您的情况, 比如您来加拿大的目的</p>
-                        <a href="/introduction/#process"><button className='moreBtn process-btn'>了解更多</button></a>
+                        <a href="/introduction/#process"><button className='moreBtn process-btn'>查看更多</button></a>
                     </ul>
                 </div>
             </article>
