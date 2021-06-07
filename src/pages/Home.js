@@ -43,6 +43,7 @@ const Home = () => {
             <div className="RCIC-section">
                 <a href="https://iccrc-crcic.ca/"  target="_blank" rel="noreferrer"><img src={RCIC} alt="RCIC" className="RCIC-homeImg"/></a>
             </div>
+          
         </>
     )
 }

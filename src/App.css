@@ -202,6 +202,37 @@ body{
   width:100%;
   height:50%;  
 }
+
+/* use policy */
+.information-use-policy-part1,
+.information-use-policy-part2{
+  display:flex;
+  flex-direction: row;
+  margin-left:10%;
+  width:80%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.part1-1,
+.part1-2,
+.part2-1,
+.part2-2{
+  width:50%;
+  margin-right: 2%;
+  text-align: flex-start;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(204, 231, 240);
+}
+.part1-2,
+.part2-1{
+  background-color: azure;
+}
+.policy-title{
+  text-align: center;
+}
+
+
 /*introduction.js*/
 .company-introduction-serviceFlow{
   padding:0 ;
@@ -501,15 +532,14 @@ h2{
   box-shadow: 2px 2px rgb(199, 220, 235);
 }
 
-.selfie{
-  width:280px;
-  height:350px
-}
-
+.selfie,
 .yang-selfie{
-  width:350px;
-  height:350px;
-  margin-left: -5%;
+  width:300px;
+  
+  margin-left: -8%;
+}
+.selfie{
+  margin-left:-4%;
 }
 
 .picture-card-text{
