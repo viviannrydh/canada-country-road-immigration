@@ -13,6 +13,7 @@ import PermanentResidence from './pages/PermanentResidence';
 import Citizenship from './pages/Citizenship';
 import Travel from './pages/Travel';
 import Introduction from './pages/Introduction';
+import UsePolicy from './pages/UsePolicy';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/fees" component={Fees} />
             <Route path="/contact" component={Contact} />
             <Route path="/aboutus" component={Aboutus} />
+            <Route path="/usepolicy" component={UsePolicy} />
             <Route path="/services" exact component={Services} />
               <Switch>
                 <Route path="/services/temporaryresidence" component={TemporaryResidence} />

@@ -1,6 +1,6 @@
 import React from 'react';
-import Gao from '../pictures/shumei.jpeg';
-import Yang from '../pictures/yang.jpeg'
+import Gao from '../pictures/shumei.jpg';
+import Yang from '../pictures/yang.jpg'
 
 const Aboutus = () => {
     return (

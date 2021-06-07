@@ -13,8 +13,8 @@ const Header = () => {
                 <Link to="/aboutus" className='link'>关于我们</Link>
                 <Link to="/fees" className='link'>费用</Link>
                 <Link to="/contact" className='link'>联系我们</Link>
+                <Link to="/usepolicy" className='link'>信息使用条款</Link>
             </div>
-            <hr/>
         </div>
     )
 }
