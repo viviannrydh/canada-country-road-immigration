@@ -22,13 +22,16 @@ const Contact = () => {
                     <br/>
                     <span>中国电话：   +86 13401080149 (仅接收短信)</span>
                     <br/>
-                    <span>邮箱: <a href="canadacountryroadimmigration@gmail.com">canadacountryroadimmigration@gmail.com</a></span>
+                    <span>邮箱: <a href="gaoshumei2016@gmail.com">gaoshumei2016@gmail.com</a></span>
                     <br/>
                     <span>微信:  </span>
                     <br/>
+                   
+                </div>
+                <div className="contact-QR">
                     <img src={QR} alt="QR" className="QR"/>
                 </div>
-                <form className="contact-form" onSubmit={handleSubmit}>
+                {/*<form className="contact-form" onSubmit={handleSubmit}>
                             <div className="contact-header">
                                 <h2>联系我们</h2>
                             </div>
@@ -53,7 +56,7 @@ const Contact = () => {
                                 <textarea type="text" name="userMessage" />
                             </div>
                             <button className='submit-button' type="submit">提交</button>
-               </form>
+               </form>*/}
             </section>
         </div>
         

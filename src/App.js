@@ -14,6 +14,7 @@ import Citizenship from './pages/Citizenship';
 import Travel from './pages/Travel';
 import Introduction from './pages/Introduction';
 import UsePolicy from './pages/UsePolicy';
+import StudyAbroad from './pages/StudyAbroad';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
                 <Route path="/services/temporaryresidence" component={TemporaryResidence} />
                 <Route path="/services/permanentresidence" component={PermanentResidence} />
                 <Route path="/services/citizenship" component={Citizenship} />
+                <Route path="/services/studyabroad" component={StudyAbroad} />
                 <Route path="/services/travel" component={Travel} />
               </Switch>
               

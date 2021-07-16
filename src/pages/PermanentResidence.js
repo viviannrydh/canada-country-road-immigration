@@ -16,7 +16,7 @@ const PermanentResidence = () => {
                 <ol>
                     <li>打算居住在魁北克以外的省份</li>
                     <li>在过去10年内，有1年以上的从事同一职业的带薪的工作（或同等数量的兼职工作经验），
-                    且职位为 <a href="http://eoivisa.com/noc/"  target="_blank" rel="noreferrer">http://eoivisa.com/noc/</a> NOC 0，A或者B类职位 英语或法语至少达到CLB 7级
+                    且职位为NOC 0，A或者B类职位 英语或法语至少达到CLB 7级
                     </li>
                     <li>高中以上学历</li>
                     <li>资金证明, 证明您有足够的钱让您和您的家人在加拿大定居，除非您目前能够在加拿大合法工作,并从加拿大的雇主那里获得了有效的雇主信</li>
@@ -40,8 +40,8 @@ const PermanentResidence = () => {
                 <h3>加拿大经验类移民基本要求</h3>
                 <ol>
                     <li>打算居住在魁北克以外的省份</li>
-                    <li>在申请前的3年内有1年的加拿大全职工作经验（或同等数量的兼职工作经验）且职位为 <a href="http://eoivisa.com/noc/"  target="_blank" rel="noreferrer">http://eoivisa.com/noc/</a> NOC 0，A或者B类职位.</li>
-                    <li>达到英语或法语要求 <a href="http://eoivisa.com/noc/"  target="_blank" rel="noreferrer">http://eoivisa.com/noc/</a> NOC 0、A类的工作要求达到CLB 7级； HYPERLINK "http://eoivisa.com/noc/" NOC B类的工作要求达到CLB 5级</li>
+                    <li>在申请前的3年内有1年的加拿大全职工作经验（或同等数量的兼职工作经验）且职位为NOC 0，A或者B类职位.</li>
+                    <li>达到英语或法语要求NOC 0、A类的工作要求达到CLB 7级； NOC B类的工作要求达到CLB 5级</li>
                     <li>满足可接受性要求</li>
                 </ol>
             </section>
@@ -71,7 +71,7 @@ const PermanentResidence = () => {
                         <li>英语或法语达到CLB 5</li>
                         <li>递交申请前的过去3年，有加拿大境内累计2年全职工作经验 （工作时间不要求连续，可以换雇主，但是不能换职位,全职工作要求每周至少工作30个小时）
                         <br/>
-                        工作类别：家庭护理 （home support worker  HYPERLINK "http://eoivisa.com/noc/" NOC 4412，管家housekeeper职位不符合工作要求）和家庭保姆（home child care provider,  HYPERLINK "http://eoivisa.com/noc/" NOC 4411）</li>
+                        工作类别：家庭护理 NOC 4412，管家housekeeper职位不符合工作要求）和家庭保姆（home child care provider,  HYPERLINK "http://eoivisa.com/noc/" NOC 4411）</li>
                         <li>不打算在魁北克省居住</li>
                         <li>证明有能力胜任这份工作（比如以前的工作经验，培训等等)</li>
                         <li>可以进入加拿大（无犯罪记录等)</li>
