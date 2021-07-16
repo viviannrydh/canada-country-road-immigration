@@ -32,7 +32,7 @@ const Fees = () => {
             <hr/>
             <div>
                 <h3>邮件、电话、视频、见面咨询</h3>
-                <p>您可以将您希望我们回答的具体问题发送至<a href="canadacountryroadimmigration@gmail.com">canadacountryroadimmigration@gmail.com</a>
+                <p>您可以将您希望我们回答的具体问题发送至<a href="gaoshumei2016@gmail.com">gaoshumei2016@gmail.com</a>
                 我们将根据您的问题进行所需时间评估，费用取决于回答时间。费用为30分钟65刀/60分钟100刀</p>
 
                 <p>我们的原则是先付款，后回答问题：我们收到您的问题进行评估后，

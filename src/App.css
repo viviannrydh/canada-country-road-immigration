@@ -79,7 +79,8 @@ body{
   
 }
 @keyframes slide-show {
-  25%{opacity:1;}
+  0%{opacity:1;}
+  25%{opacity:0.5;}
   40%{opacity:0;}
 }
 .slide-show img:nth-child(1){animation-delay:0s;}
@@ -414,6 +415,16 @@ h2{
   height:200px;
 }
 
+/*studyAbroad*/
+.studyabroad-wrapper{
+  width:40%;
+  margin: 5%;
+  padding:5%;
+  font-size: 1.1em;
+  margin-left: 26%;
+  background-color: rgb(227, 237, 241);
+}
+
 /*Travel*/
 .travel-wrapper {
   position: relative;
@@ -448,9 +459,9 @@ h2{
 
 
 .contact-detail-text{
-  width:45%;
+  width:48%;
   line-height: 2;
-  margin-left:2%;
+  margin-left:10%;
 
 }
 .google-map{
@@ -458,14 +469,14 @@ h2{
   margin-top:6%
 }
 
-.QR{
-  width:220px;
-  height:200px;
-  margin-left: 20%;
+.contact-QR{
+  width:25%;
 }
-.contact-form{
-  width:50%;
-  padding-left:2%;
+
+.QR{
+  width:100%;
+  margin-top:38%;
+  margin-left:-42%;
 }
 
 .input-item,
@@ -610,11 +621,10 @@ h2{
       width:30%;
     }
     .links-wrapper{
-      padding-top: 10%;
+      padding-top: 0;
       width:60%;
-      justify-content: center;
+      justify-content: flex-end;
       margin-left: 0;
-      padding-bottom:10%;
     }
   
     .link{
@@ -625,7 +635,6 @@ h2{
       font-size: 1em;
     }
   
-    
     .slide-show img{
       height:350px;
     }
@@ -675,9 +684,46 @@ h2{
     }
   
     .contact-detail{
-       margin-bottom:10%;
+       padding-bottom:15%;
     }
+    
+    .contact-QR{
+      width:25%;
+    }
+    
+    .QR{
+      width:100%;
+      margin-top:38%;
+      margin-left:-42%;
+    }
+    
   
+  }
+
+  @media only screen and (max-width: 1025px) {
+    
+    .moreBtn{
+      padding-top: 1%;
+      margin-left: 0%;
+    }
+    .process-btn{
+      margin-top:8%;
+      margin-left: -5%;
+    }
+    .contact-detail{
+      padding-bottom:15%;
+   }
+   
+   .contact-QR{
+     width:25%;
+   }
+   
+   .QR{
+     width:100%;
+     margin-top:78%;
+     margin-left:-42%;
+   }
+
   }
 /*------------------------------------------------------*/
 @media only screen and (max-width: 991.98px) {
@@ -697,13 +743,31 @@ h2{
 
 }
 /*------------------------------------------------------*/
-@media only screen and (max-width:  767.98px) {
+@media only screen and (max-width:  769px) {
 
   /*Home.js*/
-   
+    .header-wrapper{
+      width:100%;
+      margin-right: 0;
+    }
     .logo-img{
       width:30%;
     }
+    .links-wrapper{
+      width:70%;
+      justify-content: flex-end;
+      margin-left: 0;
+      padding-top: 20px;
+      padding-bottom: 0;
+    }
+  
+    .link{
+      display: inline-block;
+      border-bottom: 1px solid darkgrey;
+      height:30px;
+      font-size: 0.7em;
+    }
+
     .card{
      width:90%;
      margin-left: 5%;
@@ -714,6 +778,26 @@ h2{
       width:60%;
       height:50%;  
     }
+    
+    .contact-detail-text{
+      width:48%;
+      line-height: 2;
+      margin-left:10%;
+      padding-bottom: 0%;
+    
+    }
+    
+    .contact-QR{
+      width:30%;
+    }
+    
+    .QR{
+      width:100%;
+      margin-top:80%;
+      margin-left:-25%;
+    }
+    
+    
   } 
 /*------------------------------------------------------*/
 @media only screen and (max-width: 575.98px) {
@@ -748,7 +832,7 @@ h2{
     display: block;
     border-bottom: 1px solid darkgrey;
     height:40px;
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   
@@ -799,6 +883,11 @@ h2{
     margin-left: 28%;
 
   }
+  .moreBtn{
+    margin-bottom: -5%;
+    margin-top: 10%;
+  }
+ 
 
   /*Introduction*/
 
@@ -852,6 +941,18 @@ h2{
     display: block;
     margin-bottom:6%
   }
+  
+  .contact-QR{
+    width:80%;
+    margin-left:-2%;
+  }
+  
+  .QR{
+    width:100%;
+    margin-top:38%;
+    margin-left:-42%;
+  }
+  
   .QR{
     margin-top: 5px;
     margin-left: 15%;
@@ -860,11 +961,8 @@ h2{
     width:90%;
     line-height: 2;
     margin-bottom: 10%;
+    margin-left:5%;
   }
-  .contact-form{
-    width:90%;
-  }
-
 
   /* About us*/
   .picture-card{
@@ -922,4 +1020,25 @@ h2{
     text-align: center;
   }
 
+}
+
+@media only screen and (max-width: 375px){
+  body{
+    font-size: 0.8em;
+  }
+
+  .link{
+    font-size: 0.65em;
+  }
+
+  .slide-show section{
+    margin-bottom: 10%;
+  }
+
+  .company-introduction,
+  .process,
+  .ICCRC,
+  .RCIC{
+      padding-left:5%;
+  }
 }

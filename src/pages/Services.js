@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import studying from '../pictures/study.jpg';
 import mapleleaf from '../pictures/maple-leaf-card.jpg';
 import travelling from '../pictures/travelling front.jpg';
-import permanent from '../pictures/permanent.jpg'
+import permanent from '../pictures/permanent.jpg';
+import studyAbroad from '../pictures/Study-in-Canada.jpeg';
 const Services = () => {
     return (
         <div>
@@ -31,6 +32,14 @@ const Services = () => {
                         <h3 className="card-title">入籍，枫叶卡和续签</h3>
                         <p className="card-text">在这里您可以查询到入籍，枫叶卡和续签等相关信息</p>
                         <Link to="/services/citizenship"><button  className="moreBtn detail-btn">查看更多</button></Link>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={studyAbroad} className="card-img" alt="..." />
+                    <div className="card-body">
+                        <h3 className="card-title">留学</h3>
+                        <p className="card-text">在这里您可以查询到申请加拿大小学、初中、高中、高等教育院校及语言学校的相关信息</p>
+                        <Link to="/services/studyabroad"><button  className="moreBtn detail-btn">查看更多</button></Link>
                     </div>
                 </div>
                 <div className="card">

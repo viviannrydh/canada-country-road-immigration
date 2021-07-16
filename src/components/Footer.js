@@ -17,14 +17,15 @@ const Footer = () => {
                 <a href="/services/temporaryresidence">临时居留</a>
                 <a href="/services/permanentresidence">永久居留</a>
                 <a href="/services/citizenship">入籍，枫叶卡和续签</a>
+                <a href="/services/studyabroad">留学</a>
                 <a href="/services/travel">旅游</a>
             </div>
         
             <div className="footer-contact-lists">
                 <h3 className='footer-title'>联系我们</h3>
                 <li>加拿大电话： +1 587-716-6969</li>
-                <li>中国电话：   +86 13401080149 (仅接收短信)</li>
-                <li>邮箱: <a href="canadacountryroadimmigration@gmail.com">canadacountryroadimmigration@gmail.com</a></li>
+                <li>中国电话：   +86 13401080149 (短信)</li>
+                <li>邮箱: <a href="gaoshumei2016@gmail.com">gaoshumei2016@gmail.com</a></li>
             </div>
           
         </div>
