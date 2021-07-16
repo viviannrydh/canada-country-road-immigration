@@ -18,15 +18,18 @@ const Contact = () => {
                     <h2 style={{color:'rgb(204, 4, 4)'}}>Canada Country Road Immigration Inc.</h2>
                     <img src={googlemap} alt="google-map" className="google-map"/>
                     <br/>
-                    <span>加拿大电话： +1 587-716-6969</span>
+                    <span><strong>加拿大电话：</strong> +1 587-716-6969</span>
                     <br/>
-                    <span>中国电话：   +86 13401080149 (仅接收短信)</span>
+                    <span><strong>中国电话:</strong> +86 13401080149 (短信)</span>
                     <br/>
-                    <span>邮箱: <a href="gaoshumei2016@gmail.com">gaoshumei2016@gmail.com</a></span>
+                    <span><strong>邮箱:</strong> <a href="gaoshumei2016@gmail.com">gaoshumei2016@gmail.com</a></span>
                     <br/>
-                    <span>微信:  </span>
+                    <span><strong>微信:</strong> CNGZGSM   </span>
                     <br/>
-                   
+                    <span><strong>公众号:</strong> 我在枫叶国 </span>
+                    <br/>
+                    <span><strong>小红书:</strong> 班夫路书/RED ID: 1042407420 </span>
+                    <br/> 
                 </div>
                 <div className="contact-QR">
                     <img src={QR} alt="QR" className="QR"/>

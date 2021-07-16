@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="footer-contact-lists">
                 <h3 className='footer-title'>联系我们</h3>
                 <li>加拿大电话： +1 587-716-6969</li>
-                <li>中国电话：   +86 13401080149 (仅接收短信)</li>
+                <li>中国电话：   +86 13401080149 (短信)</li>
                 <li>邮箱: <a href="gaoshumei2016@gmail.com">gaoshumei2016@gmail.com</a></li>
             </div>
           
