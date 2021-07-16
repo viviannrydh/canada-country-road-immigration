@@ -422,7 +422,7 @@ h2{
   padding:5%;
   font-size: 1.1em;
   margin-left: 26%;
-  background-color: rgb(227, 237, 241);
+  background-color: rgb(199, 233, 247);
 }
 
 /*Travel*/
@@ -534,7 +534,7 @@ h2{
 
 .picture-card{
   width:35%;
-  background-color: rgb(225, 228, 230);
+  background-color: rgb(202, 229, 247);
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -546,7 +546,6 @@ h2{
 .selfie,
 .yang-selfie{
   width:300px;
-  
   margin-left: -8%;
 }
 .selfie{
@@ -563,9 +562,12 @@ h2{
   width:50%;
   line-height: 1.5em;
   font-size: 1em;
-  padding-top: 5%;
+  padding-top: 1%;
 }
-
+.degree-lists{
+  list-style: none;
+  margin-left: -5%;
+}
 /*Fees container*/
 .fees-container{
   padding:5%;
@@ -599,12 +601,17 @@ h2{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.1em;
+  font-size: 1em;
+}
+.footer-contact{
+  margin-left: -39%;
 }
 .footer-contact-lists{
   color:white;
   list-style: none;
   font-size: 1.1em;
+  margin-left: 5%;
+  padding-left: 5%;
 }
 
 .footer-contact-lists li a{
@@ -702,9 +709,19 @@ h2{
 
   @media only screen and (max-width: 1025px) {
     
+    .card-img{
+      width:70%;
+      height:70%;  
+    }
     .moreBtn{
       padding-top: 1%;
       margin-left: 0%;
+    }
+    .permanent-btn{
+      margin-top: -5%;
+    }
+    .traval-btn{
+      margin-top: -3%;
     }
     .process-btn{
       margin-top:8%;
@@ -717,12 +734,35 @@ h2{
    .contact-QR{
      width:25%;
    }
-   
+   .card{
+    width:90%;
+    height:600px;
+    margin-left: 5%;
+    padding-top: 10px;
+   }
    .QR{
      width:100%;
      margin-top:78%;
      margin-left:-42%;
    }
+   .footer-contact{
+     margin-left: 4.5%;
+   }
+  .selfie,
+  .yang-selfie{
+    width:100%;
+    padding-left: 4%;
+    border-radius: 0%;
+    padding-top: -3%;
+  } 
+  .yang-selfie{
+    padding-left: 7%;
+    
+  } 
+  .self-introduction{
+    font-size: 0.9em;
+    padding-top: 8%;
+  }
 
   }
 /*------------------------------------------------------*/
@@ -773,7 +813,10 @@ h2{
      margin-left: 5%;
      padding-top: 10px;
     }
-  
+    .card-img{
+      width:70%;
+      height:70%;  
+    }
     .card-img{
       width:60%;
       height:50%;  
@@ -796,7 +839,21 @@ h2{
       margin-top:80%;
       margin-left:-25%;
     }
-    
+
+    .picture-card{
+      flex-direction: column;
+      width:41%;
+    }
+    .selfie,
+    .yang-selfie{
+      padding-left: 0%;
+      border-radius: 0%;
+      padding-top: -3%;
+    } 
+    .yang-selfie{
+      padding-left: 3%;
+      border-radius: 0%;
+    } 
     
   } 
 /*------------------------------------------------------*/
@@ -1007,7 +1064,10 @@ h2{
     width:100%;
     margin-top: 3%;
   }
-
+  .studyabroad-wrapper{
+    width:80%;
+    margin-left: 5%;
+  }
   /*footer.js*/
   .footer-wrapper{
     width:95%;
@@ -1022,7 +1082,7 @@ h2{
 
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 376px){
   body{
     font-size: 0.8em;
   }
@@ -1041,4 +1101,97 @@ h2{
   .RCIC{
       padding-left:5%;
   }
+  .studyabroad-wrapper{
+    width:80%;
+    margin-left: 5%;
+  }
+  .card{
+    width:90%;
+    height:400px;
+    margin-left: 5%;
+    padding-top: 10px;
+   }
+  .footer-contact{
+    margin-left: -10%;
+  }
+  .selfie,
+  .yang-selfie{
+    padding-left: 8.5%;
+    border-radius: 50%;
+  }
+  .yang-selfie{
+    padding-left: 4%;
+  }
+  .information-use-policy-part1,
+  .information-use-policy-part2{
+    flex-direction: column;
+  }
+  .part1-1,
+  .part1-2,
+  .part2-1,
+  .part2-2{
+    width:100%;
+    margin-left: -5%;
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 290px){
+  .header-wrapper{
+    width:100%;
+    margin-right: 0;
+  }
+
+  .logo-img{
+    width:100%;
+    height: 120px;
+  }
+  .links-wrapper{
+    width:100%;
+  }
+
+  .link{
+    padding:5px;
+    display: block;
+    border-bottom: 1px solid darkgrey;
+    height:40px;
+    font-size: 0.7em;
+  }
+  .personal-introduction{
+   width:100%;
+   padding-left: 3.5%;
+  }
+
+  .picture-card{
+    flex-direction: column;
+    width:100%;
+    border:none;
+  }
+  .selfie,
+  .yang-selfie{
+    width:100%;
+    padding-left: 4%;
+    border-radius: 0%;
+    padding-top: -3%;
+  } 
+  .yang-selfie{
+    padding-left: 0%;
+    
+  } 
+  .self-introduction{
+    font-size: 0.8em;
+  }
+  .information-use-policy-part1,
+  .information-use-policy-part2{
+    flex-direction: column;
+  }
+  .part1-1,
+  .part1-2,
+  .part2-1,
+  .part2-2{
+    width:100%;
+    margin-left: -5%;
+    padding-left: 5%;
+  }
+  
 }
