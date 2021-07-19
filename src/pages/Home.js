@@ -30,7 +30,7 @@ const Home = () => {
                     <Link to="./introduction"><button className='moreBtn'>查看更多</button></Link>
                 </div>
                 <div className="process">
-                    <h3>服务流程</h3>
+                    <h3>  服务流程</h3>
                     <hr/>
                     <ul className='process-lists'>
                         <p>第一步: 联系我们，说明您的情况, 比如您来加拿大的目的</p>

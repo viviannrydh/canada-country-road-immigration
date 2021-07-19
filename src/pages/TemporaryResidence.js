@@ -23,7 +23,7 @@ const TemporaryResidence = () => {
                                     <li>被指定的学习机构录取</li>
                                     <li>证明您有足够的钱来支付您的学费、您自己以及与您一起到加拿大的任何家庭成员的生活费用，以及为您和与您一同前往加拿大的任何家庭成员返回交通费</li>
                                     <li>遵守法律，没有犯罪记录并获得无犯罪证明（如果适用）</li>
-                                    <li>身体健康，并接受体检（如果需要）</li>
+                                    <li>身体健康，并接受体检（如果适用）</li>
                                     <li>向签证官证明您的学习许可到期后您将离开加拿大</li>
                                 </ul>
                             </p>
@@ -54,8 +54,7 @@ const TemporaryResidence = () => {
                                     <strong>开放工作许可</strong>
                                     <br/>
                                     开放工作许可允许您为加拿大的任何雇主工作，但以下情况除外：
-                                    被列为不符合条件的雇主名单中不符合条件的雇主或
-                                    定期提供脱衣舞，色情舞蹈，伴游服务或色情按摩
+                                    被列为不符合条件的雇主名单中不符合条件的雇主或定期提供脱衣舞，色情舞蹈，伴游服务或色情按摩。
                                     在特定情况下，您只能获得开放的工作许可。
                                 </p>
                             </div>
@@ -126,7 +125,11 @@ const TemporaryResidence = () => {
                         </div>
                         <div id="pointer">
                             <div className="cnt">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis error quae inventore blanditiis harum officiis assumenda voluptate facilis accusamus saepe. Ab, harum ratione velit ducimus asperiores tenetur praesentium sequi nulla! </p>
+                                <p>国际经验签证计划（IEC ）通过管理与 36 个国家和地区的双边互惠协议和安排来支持加拿大的经济和文化利益。通过 IEC 计划下的双边协议和安排，有 3 种类别：
+                                    <li>工作假期 Working Holiday （旅行和工作）：参与者有资格申请开放式工作许可证，允许他们为加拿大的任何雇主或地点工作，以资助他们在旅行和探索该国时的逗留</li>
+                                    <li>年轻的专业人士 Young Professionals  （职业发展）：参与者有资格申请特定于雇主的工作许可证，以帮助他们在其专业或学习领域获得有针对性的经验</li>
+                                    <li>国际实习 International Co-op （仅供学生实习）：该实习类别的参与者有资格申请特定于雇主的工作许可证，以帮助他们在其学习领域获得有针对性的经验</li>
+                                </p>
                             </div>
                         </div>
                 </div>

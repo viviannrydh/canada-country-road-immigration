@@ -553,13 +553,17 @@ h2{
 }
 
 .picture-card-text{
-  padding-top: 10%;
+  padding-top: 15%;
   text-align: center;
   text-decoration: none;
 }
+.yang-text{
+  padding-top: 20%;
+  margin-left: -2%;
+}
 
 .self-introduction{
-  width:50%;
+  width:45%;
   line-height: 1.5em;
   font-size: 1em;
   padding-top: 1%;
@@ -709,6 +713,9 @@ h2{
 
   @media only screen and (max-width: 1025px) {
     
+    .card{
+      width:70%;
+    }
     .card-img{
       width:70%;
       height:70%;  
@@ -748,9 +755,17 @@ h2{
    .footer-contact{
      margin-left: 4.5%;
    }
+   .picture-card{
+     display: flex;
+     flex-direction: row;
+     width:20%;
+   }
   .selfie,
   .yang-selfie{
-    width:100%;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
     padding-left: 4%;
     border-radius: 0%;
     padding-top: -3%;
@@ -759,10 +774,23 @@ h2{
     padding-left: 7%;
     
   } 
-  .self-introduction{
-    font-size: 0.9em;
-    padding-top: 8%;
+  .personal-introduction{
+    width:100%;
   }
+  .self-introduction{
+    width:40%;
+    font-size: 0.9em;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: -30%;
+    background-color: rgb(199, 227, 233);
+  }
+  .fees-container{
+    width:80%;
+    margin-left: 8%;
+  }
+  
 
   }
 /*------------------------------------------------------*/
@@ -809,17 +837,16 @@ h2{
     }
 
     .card{
-     width:90%;
+     width:87%;
+     height:40%;
      margin-left: 5%;
      padding-top: 10px;
     }
-    .card-img{
-      width:70%;
-      height:70%;  
-    }
+   
     .card-img{
       width:60%;
       height:50%;  
+      object-fit: cover;
     }
     
     .contact-detail-text{
@@ -830,6 +857,10 @@ h2{
     
     }
     
+    .process-btn{
+      margin-top: 10%;
+      margin-left: -8%;
+    }
     .contact-QR{
       width:30%;
     }
@@ -843,17 +874,48 @@ h2{
     .picture-card{
       flex-direction: column;
       width:41%;
+      background-color: rgb(203, 228, 243);
+      border: none;
+      
+    }
+    .personal-introduction{
+      width:70%;
+      margin-left: 10%;
+      background-color: rgb(203, 228, 243);
+      display: flex;
+      flex-direction: row;
     }
     .selfie,
     .yang-selfie{
-      padding-left: 0%;
-      border-radius: 0%;
-      padding-top: -3%;
-    } 
+      width:200px;
+      height:200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: -35%;
+      margin-bottom: 0%;
+      margin-top: -20%;
+    }
     .yang-selfie{
-      padding-left: 3%;
-      border-radius: 0%;
-    } 
+      margin-right: 30%;
+    }
+    .self-introduction{
+      width:80%;
+      font-size: 0.8em;
+      padding-top: 10%;
+      margin-bottom: 0%;
+      padding-left: 5%;
+      padding-right: 0%;
+      margin-left: 0%;
+      background-color: rgb(199, 227, 233);
+    }
+    .picture-card{
+      width:31%;
+      height:250px;
+    }
+    .picture-card-text{
+      margin-top: -20%;
+      font-size: 0.9em;
+    }
     
   } 
 /*------------------------------------------------------*/
@@ -1100,6 +1162,7 @@ h2{
   .ICCRC,
   .RCIC{
       padding-left:5%;
+      height:220px;
   }
   .studyabroad-wrapper{
     width:80%;
@@ -1114,13 +1177,41 @@ h2{
   .footer-contact{
     margin-left: -10%;
   }
+
+  .personal-introduction{
+    width:80%;
+    margin-left: 5%;
+  }
+  .picture-card{
+    display: flex;
+    flex-direction: row;
+    height:200px;
+  }
+
   .selfie,
   .yang-selfie{
-    padding-left: 8.5%;
     border-radius: 50%;
+    width:150px;
+    height:150px;
+    object-fit: fill;
+    margin-left: -5%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-right: 5%;
   }
   .yang-selfie{
-    padding-left: 4%;
+    margin-right: 0%;
+
+  }
+  .picture-card-text{
+    margin-top: 4%;
+  }
+  .self-introduction{
+    padding-top: 3%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-top: 6%;
+    background-color: none;
   }
   .information-use-policy-part1,
   .information-use-policy-part2{
@@ -1157,7 +1248,21 @@ h2{
     height:40px;
     font-size: 0.7em;
   }
-  .personal-introduction{
+  .company-introduction,
+  .process,
+  .ICCRC,
+  .RCIC{
+    height:200px;
+  }
+  .process{
+    padding-left: 0;
+    width:95%;
+  }
+  .process-btn{
+    margin-top: 22%;
+  }
+  .personal-introduction,
+  {
    width:100%;
    padding-left: 3.5%;
   }
@@ -1167,19 +1272,37 @@ h2{
     width:100%;
     border:none;
   }
+  .personal-introduction{
+    width:80%;
+    margin-left: 5%;
+  }
   .selfie,
   .yang-selfie{
-    width:100%;
-    padding-left: 4%;
-    border-radius: 0%;
-    padding-top: -3%;
-  } 
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    margin-left: 15%;
+    margin-top: 1%;
+  }
   .yang-selfie{
-    padding-left: 0%;
-    
+    margin-left: 13%;
   } 
   .self-introduction{
     font-size: 0.8em;
+  }
+  .self-introduction{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0%;
+    margin-top: 6%;
+    background-color: none;
+  }
+  .picture-card{
+    display: flex;
+    flex-direction: column;
+    height:300px;
   }
   .information-use-policy-part1,
   .information-use-policy-part2{

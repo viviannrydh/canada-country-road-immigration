@@ -68,7 +68,7 @@ const PermanentResidence = () => {
                         <li>英语或法语达到CLB 5</li>
                         <li>递交申请前的过去3年，有加拿大境内累计2年全职工作经验 （工作时间不要求连续，可以换雇主，但是不能换职位,全职工作要求每周至少工作30个小时）
                         <br/>
-                        工作类别：家庭护理 NOC 4412，管家housekeeper职位不符合工作要求）和家庭保姆（home child care provider,  HYPERLINK "http://eoivisa.com/noc/" NOC 4411）</li>
+                        工作类别：家庭护理 NOC 4412，管家housekeeper职位不符合工作要求）和家庭保姆（home child care provider, NOC 4411）</li>
                         <li>不打算在魁北克省居住</li>
                         <li>证明有能力胜任这份工作（比如以前的工作经验，培训等等)</li>
                         <li>满足可接受性要求</li>
