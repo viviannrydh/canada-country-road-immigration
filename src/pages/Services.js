@@ -13,7 +13,7 @@ const Services = () => {
                     <img src={studying} className="card-img" alt="..." />
                     <div className="card-body">
                         <h3 className="card-title">临时居留</h3>
-                        <p className="card-text">在这里您可以查询到学生许可，工作许可等相关信息</p>
+                        <p className="card-text">在这里您可以查询到学习许可，工作许可等相关信息</p>
                         <Link to="/services/temporaryresidence"><button className="moreBtn detail-btn">查看更多</button></Link>
                     </div>
                 </div>
