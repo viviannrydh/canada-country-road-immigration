@@ -367,7 +367,7 @@ body{
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 1.25em solid white;
+  border-left: 1em solid rgb(165, 214, 226);
   border-top: 2em solid transparent;
   border-bottom: 2em solid transparent;
 }
@@ -378,7 +378,7 @@ body{
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 1.25em solid rgb(104, 155, 214);
+  border-left: 1em solid rgb(104, 155, 214);
   border-top: 2em solid transparent;
   border-bottom: 2em solid transparent;
 }
@@ -790,6 +790,15 @@ h2{
     width:80%;
     margin-left: 8%;
   }
+
+  h4{
+    font-size: 0.7em;
+    padding-left: 12%;
+    
+  }
+  h3{
+    font-size: 0.8em;
+  }
   
 
   }
@@ -915,6 +924,15 @@ h2{
     .picture-card-text{
       margin-top: -20%;
       font-size: 0.9em;
+    }
+    h4{
+      font-size: 0.7;
+      padding-top: 0%;
+      line-height: 1;
+    }
+    h3{
+      padding-left: 12%;
+      font-size: 0.8em;
     }
     
   } 
@@ -1199,7 +1217,53 @@ h2{
     margin-left: -5%;
     padding-left: 5%;
   }
+  h4{
+    font-size: 0.9em;
+    padding-left: 12%;
+  }
+  h3{
+    font-size: 1em;
+  }
 
+}
+
+@media only screen and (max-width: 412px){
+  .personal-introduction{
+    width:80%;
+    margin-left: 5%;
+  }
+  .picture-card{
+    display: flex;
+    flex-direction: row;
+    height:200px;
+  }
+
+  .selfie,
+  .yang-selfie{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    object-fit: fill;
+    margin-left: -5%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+  }
+  .yang-selfie{
+    margin-right: -5%;
+    margin-left: -20%;
+
+  }
+  .picture-card-text{
+    margin-top: 0%;
+  }
+  .self-introduction{
+    padding-top: 3%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-top: 6%;
+    background-color: none;
+  }
 }
 @media only screen and (max-width: 376px){
   body{
@@ -1261,7 +1325,7 @@ h2{
 
   }
   .picture-card-text{
-    margin-top: 4%;
+    margin-top: 10%;
   }
   .self-introduction{
     padding-top: 3%;
@@ -1281,6 +1345,51 @@ h2{
     width:100%;
     margin-left: -5%;
     padding-left: 5%;
+  }
+}
+@media only screen and (max-width: 361px){
+  .personal-introduction
+  {
+   width:100%;
+   padding-left: 3.5%;
+  }
+
+  .picture-card{
+    flex-direction: column;
+    width:100%;
+    border:none;
+  }
+  .personal-introduction{
+    width:80%;
+    margin-left: 5%;
+  }
+  .selfie,
+  .yang-selfie{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+  .yang-selfie{
+    margin-left: 18%;
+  } 
+  .self-introduction{
+    font-size: 0.8em;
+  }
+  .self-introduction{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0%;
+    margin-top: 6%;
+    background-color: none;
+  }
+  .picture-card{
+    display: flex;
+    flex-direction: column;
+    height:300px;
   }
 }
 
@@ -1318,7 +1427,7 @@ h2{
   .process-btn{
     margin-top: 22%;
   }
-  .personal-introduction,
+  .personal-introduction
   {
    width:100%;
    padding-left: 3.5%;
@@ -1372,6 +1481,13 @@ h2{
     width:100%;
     margin-left: -5%;
     padding-left: 5%;
+  }
+  h4{
+    font-size: 0.7em;
+    padding-left: 12%;
+  }
+  h3{
+    font-size: 0.9em;
   }
   
 }
