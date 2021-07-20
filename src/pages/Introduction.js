@@ -7,14 +7,14 @@ const Introduction = () => {
             <article className="introduction-wrapper">
                 <div className='company-introduction-serviceFlow'>
                     <div className='company-information'>
-                        <h3 id="company">公司简介</h3>
+                        <span id="company" className="card-title-introduction">公司简介</span>
                         <p>加路移民公司注册名称为Canada Country Road Immigration Inc. 
                         总部位于加拿大阿尔伯塔省卡尔加里。
                         公司向客户提供加拿大留学签证及移民服务，
                         为客户提供阿尔伯塔省卡尔加里及周边旅游服务。我们的原则是诚实、合作、透明、没有隐形费用、以客户为中心，尽我们最大的努力为客户提供高质量的服务。</p>
                     </div>
                     <div className="service-flow">
-                        <h3 id="process">服务流程</h3>
+                        <span id="process" className="card-title-introduction">服务流程</span>
                         <ul>
                                 <li>第一步: 联系我们，说明您的情况, 比如为什么想来加拿大</li>
                                 <li>第二步：安排免费初次咨询，讨论您的移民目标和回答您关于加拿大移民的问题。
@@ -41,7 +41,7 @@ const Introduction = () => {
                         https://www.youtube.com/watch?v=ADQlKvB39bw&feature=youtu.be */}
                     </div>
                     <div className="ICCRC-box" >
-                        <h3 id="RCIC">RCIC</h3>
+                        <span id="RCIC" className="card-title-introduction">RCIC</span>
                             <p>加拿大注册移民顾问（Regulated Canadian Immigration Consultant，简称RCIC)
                             受加拿大移民顾问监管委员ICCRC监管。加拿大法律规定，只有在加拿大律师公会、
                             魁北克省公证人协会或加拿大移民顾问监管委员ICCRC注册，
@@ -53,7 +53,7 @@ const Introduction = () => {
                             通过考试后，购买相应的职业保险才能取得加拿大注册移民顾问从业资格。
                             请谨记，在签订任何合同之前，务必在 ICCRC 网上公开登记册上查验移民顾问的执行状态。 
                             签订合同时一定是与RCIC签订的合同。</p>
-                        <h3 id="ICCRC">ICCRC</h3>
+                        <span id="ICCRC" className="card-title-introduction">ICCRC</span>
                         <p>加拿大移民顾问监管委员会（Immigration Consultants of Canada Regulatory Council简称ICCRC）是一个国家级监管机构，负责监督持牌的移民顾问、公民身份顾问和国际留学生顾问，以促进和保障公众利益。
                         受加拿大移民、难民及公民部 (Immigration, Refugees and Citizenship) 联邦部长委任，
                         ICCRC从2011年开始监管移民顾问，之后更于2015年公民身份顾问和国际留学生顾问纳入监管范围。</p>

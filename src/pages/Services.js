@@ -42,11 +42,20 @@ const Services = () => {
                         <Link to="/services/studyabroad"><button  className="moreBtn detail-btn">查看更多</button></Link>
                     </div>
                 </div>
-                <div className="card">
-                    <img src={travelling}  className="card-img" alt="..." />
+                <div className="card travel-card">
+                    <img src={travelling}  className="card-img travel-card-img" alt="..." />
                     <div className="card-body">
                         <h3 className="card-title">旅游</h3>
                         <p className="card-text">加路旅行-班夫全地形深度游服务项目</p>
+                        <br/>
+                        <Link to="/services/travel"><button  className="moreBtn detail-btn traval-btn">查看更多</button></Link>
+                    </div>
+                </div>
+                <div className="card extra-service-card">
+                    <img src={travelling}  className="card-img" alt="..." />
+                    <div className="card-body">
+                        <h3 className="card-title">其他服务</h3>
+                        <p className="card-text">。。。。。。。。</p>
                         <br/>
                         <Link to="/services/travel"><button  className="moreBtn detail-btn traval-btn">查看更多</button></Link>
                     </div>
