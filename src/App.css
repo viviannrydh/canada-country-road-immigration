@@ -613,7 +613,7 @@ h2{
 .footer-contact-lists{
   color:white;
   list-style: none;
-  font-size: 1.1em;
+  font-size: 1em;
   margin-left: 5%;
   padding-left: 5%;
 }
@@ -1144,6 +1144,63 @@ h2{
 
 }
 
+@media only screen and (max-width: 415px){
+  .footer-links-container{
+    padding-left: 10%;
+  }
+  .contact-us-title{
+    margin-left: -1%;
+  }
+  .personal-introduction{
+    width:80%;
+    margin-left: 5%;
+  }
+  .picture-card{
+    display: flex;
+    flex-direction: row;
+    height:200px;
+  }
+
+  .selfie,
+  .yang-selfie{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    object-fit: fill;
+    margin-left: -5%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+  }
+  .yang-selfie{
+    margin-right: -5%;
+    margin-left: -20%;
+
+  }
+  .picture-card-text{
+    margin-top: 0%;
+  }
+  .self-introduction{
+    padding-top: 3%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-top: 6%;
+    background-color: none;
+  }
+  .information-use-policy-part1,
+  .information-use-policy-part2{
+    flex-direction: column;
+  }
+  .part1-1,
+  .part1-2,
+  .part2-1,
+  .part2-2{
+    width:100%;
+    margin-left: -5%;
+    padding-left: 5%;
+  }
+
+}
 @media only screen and (max-width: 376px){
   body{
     font-size: 0.8em;
@@ -1175,7 +1232,7 @@ h2{
     padding-top: 10px;
    }
   .footer-contact{
-    margin-left: -10%;
+    margin-left:0%;
   }
 
   .personal-introduction{
