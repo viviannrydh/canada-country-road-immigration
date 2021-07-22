@@ -572,6 +572,7 @@ h2{
   line-height: 1.5em;
   font-size: 1em;
   padding-top: 1%;
+  margin-left: -8%;
 }
 .degree-lists{
   list-style: none;
@@ -1369,7 +1370,7 @@ h2{
   .personal-introduction
   {
    width:100%;
-   padding-left: 3.5%;
+   margin-left: 3.5%;
   }
 
   .picture-card{
@@ -1384,10 +1385,10 @@ h2{
   .selfie,
   .yang-selfie{
     border-radius: 50%;
-    width:150px;
-    height:150px;
+    width:120px;
+    height:120px;
     object-fit: cover;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 1%;
   }
   .yang-selfie{
@@ -1408,6 +1409,9 @@ h2{
     display: flex;
     flex-direction: column;
     height:300px;
+  }
+  .picture-card-text{
+    margin-top: 0%;
   }
 }
 
