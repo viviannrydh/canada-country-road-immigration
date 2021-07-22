@@ -5,6 +5,7 @@ import mapleleaf from '../pictures/maple-leaf-card.jpg';
 import travelling from '../pictures/travelling front.jpg';
 import permanent from '../pictures/permanent.jpg';
 import studyAbroad from '../pictures/Study-in-Canada.jpeg';
+import otherService from '../pictures/other-service.JPG'
 const Services = () => {
     return (
         <div>
@@ -48,16 +49,16 @@ const Services = () => {
                         <span className="card-title"><strong>旅游</strong></span>
                         <p className="card-text">加路旅行-班夫全地形深度游服务项目</p>
                         <br/>
-                        <Link to="/services/travel"><button  className="moreBtn detail-btn traval-btn">查看更多</button></Link>
+                        <Link to="/services/travel"><button  className="moreBtn detail-btn travel-btn">查看更多</button></Link>
                     </div>
                 </div>
                 <div className="card extra-service-card">
-                    <img src={travelling}  className="card-img" alt="..." />
+                    <img src={otherService}  className="card-img" alt="..." />
                     <div className="card-body">
                         <span className="card-title"><strong>其他服务</strong></span>
-                        <p className="card-text">。。。。。。。。</p>
+                        <p className="card-text">我们也可以为您提供机场接送机，中英文翻译，学历认证等服务</p>
                         <br/>
-                        <Link to="/services/travel"><button  className="moreBtn detail-btn traval-btn">联系我们</button></Link>
+                        <Link to="/contact"><button  className="moreBtn detail-btn contact-btn-more">联系我们</button></Link>
                     </div>
                 </div>
             </section>
