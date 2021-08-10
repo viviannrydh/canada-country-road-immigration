@@ -4,7 +4,7 @@ body{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: Tahoma/ Verdana/ Arial,;
+  font-family:'Times New Roman', Times, serif;
   line-height: 2em;
   background-color: rgb(241, 248, 250);
   /*background: 
@@ -53,7 +53,7 @@ body{
 
 .slide-show{
   width:100%;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 
 .slide-show img{
@@ -617,6 +617,11 @@ h2{
   justify-content: space-around;
   align-items: center;
   font-size: 1em;
+}
+.footer-title{
+  font-size:1.15em;
+  color:rgb(177, 213, 243);
+  font-family: fantasy;
 }
 .footer-contact{
   margin-left: -39%;
