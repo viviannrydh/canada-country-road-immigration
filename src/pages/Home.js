@@ -27,7 +27,7 @@ const Home = () => {
                     <span><strong>RCIC</strong></span>
                     <hr/>
                     <p>加拿大注册移民顾问（Regulated Canadian Immigration Consultant，简称RCIC)</p>
-                    <Link to="./introduction"><button className='moreBtn'>查看更多</button></Link>
+                    <Link to="./introduction"><button className='moreBtn rcic-moreBtn'>查看更多</button></Link>
                 </div>
                 <div className="process">
                     <span><strong>服务流程</strong></span>

@@ -4,7 +4,7 @@ body{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: Tahoma/ Verdana/ Arial,;
+  font-family:'Times New Roman', Times, serif;
   line-height: 2em;
   background-color: rgb(241, 248, 250);
   /*background: 
@@ -53,13 +53,14 @@ body{
 
 .slide-show{
   width:100%;
+  margin-bottom: 3%;
 }
 
 .slide-show img{
   position: absolute;
   animation:slide-show 20s infinite;
   opacity: 0;
-  height:700px;
+  height:750px;
 }
 .slide-show section{
   position:relative;
@@ -150,6 +151,10 @@ body{
   border:1px solid rgb(34, 57, 102);
   font-size: 0.9em;
   padding:2%;
+}
+
+.rcic-moreBtn{
+  margin-top: 22%;
 }
 
 .detail-btn{
@@ -617,6 +622,11 @@ h2{
   align-items: center;
   font-size: 1em;
 }
+.footer-title{
+  font-size:1.15em;
+  color:rgb(177, 213, 243);
+  font-family: fantasy;
+}
 .footer-contact{
   margin-left: -39%;
 }
@@ -655,7 +665,10 @@ h2{
       height:20px;
       font-size: 1em;
     }
-  
+    .slide-show{
+      width:100%;
+      margin-bottom: 10%;
+    }
     .slide-show img{
       height:350px;
     }
@@ -722,6 +735,11 @@ h2{
   }
 
   @media only screen and (max-width: 1025px) {
+    
+    .slide-show{
+      width:100%;
+      margin-bottom: 0%;
+    }
     .company-introduction,
     .process,
     .ICCRC,
@@ -828,7 +846,10 @@ h2{
 @media only screen and (max-width: 991.98px) {
 
 /*Home.js*/
- 
+.slide-show{
+  width:100%;
+  margin-bottom: 2%;
+}
   .logo-img{
     width:30%;
   }
@@ -973,6 +994,11 @@ h2{
   padding: 0px;
   overflow-x: hidden;
  }
+
+ .slide-show{
+  width:100%;
+  margin-bottom: 0%;
+}
 
  /*Home.js*/
   .header-wrapper{
