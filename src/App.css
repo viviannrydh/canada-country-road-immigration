@@ -210,6 +210,13 @@ body{
   color:rgb(7, 2, 59);
   box-shadow: 0 10px 20px rgba(133, 161, 212, 0.19), 0 6px 6px rgba(143, 182, 235, 0.23);
 }
+
+.card-title{
+  font-size: 1.1em;
+}
+.card-title-introduction{
+  font-size: 1.1em;
+}
 .card-img{
   width:100%;
   height:50%;  
