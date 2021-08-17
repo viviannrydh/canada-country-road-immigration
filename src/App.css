@@ -621,7 +621,7 @@ h2{
   justify-content: space-between;
   width:100%;
   padding-left: 8%;
-  padding-right: 0%;
+  padding-right: 2%;
   padding-top: 1%;
   padding-bottom: 2%;
 }
@@ -746,8 +746,7 @@ h2{
     }
     .RCIC-homeImg{
       width: 300px;
-      margin-left: 10%;
-  
+      margin-left: 4%;
     }
   
     .contact-detail{
@@ -762,6 +761,9 @@ h2{
       width:100%;
       margin-top:38%;
       margin-left:-42%;
+    }
+    .footer-wrapper{
+      padding-left: 4%;
     }
     
   
@@ -828,8 +830,11 @@ h2{
      margin-top:78%;
      margin-left:-42%;
    }
+   .footer-wrapper{
+    padding-left: 0%;
+  }
    .footer-contact{
-     margin-left: 4.5%;
+     margin-left: 0%;
    }
    .picture-card{
      display: flex;
@@ -901,6 +906,10 @@ h2{
   .card-img{
     width:60%;
     height:50%;  
+  }
+  .footer-wrapper{
+    font-size: 0.8em;
+    padding-left: 3%;
   }
   
 
