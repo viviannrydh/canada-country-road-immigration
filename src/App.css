@@ -28,6 +28,7 @@ body{
   flex-wrap: wrap;
   background-color:  rgb(38, 76, 119);
   color:white;
+  z-index: 99;
 }
 .logo-img{
   width: 22%;
@@ -53,7 +54,6 @@ body{
 
 .slide-show{
   width:100%;
-  margin-bottom: 3%;
 }
 
 .slide-show img{
@@ -116,28 +116,34 @@ body{
   margin-bottom:10px;
   color:rgb(7, 2, 59);
   box-shadow: 0 10px 20px rgba(133, 161, 212, 0.19), 0 6px 6px rgba(143, 182, 235, 0.23);
+  z-index: 1;
 }
 
 .company-introduction:hover
 {
   background-color: rgb(151, 185, 212);
+  cursor: pointer;
 }
 .process:hover
 {
   background-color: rgb(151, 185, 212);
+  cursor: pointer;
 }
 
 .ICCRC:hover
 {
   background-color: rgb(151, 185, 212);
+  cursor: pointer;
 }
 
 .RCIC:hover{
   background-color: rgb(151, 185, 212);
+  cursor: pointer;
 }
 
 .card:hover{
   background-color: rgb(151, 185, 212);
+  cursor: pointer;
 }
 
 
@@ -151,6 +157,7 @@ body{
   border:1px solid rgb(34, 57, 102);
   font-size: 0.9em;
   padding:2%;
+  cursor: pointer;
 }
 
 .rcic-moreBtn{
@@ -176,12 +183,11 @@ body{
   display: flex;
   flex-direction: row;
   width:100%;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .RCIC-homeImg{
-  width: 20%;
-  margin-left: 32%;
+  width: 300px;
 }
 .cards-section{
   display:flex;
@@ -189,7 +195,7 @@ body{
   flex-wrap: wrap;
   align-items: center;
   width:100%;
-  margin-top: 5%;
+  margin-top: 2%;
   padding-left:4%;
   margin-bottom: 5%;
 }
@@ -623,8 +629,8 @@ h2{
   font-size: 1em;
 }
 .footer-title{
-  font-size:1.15em;
-  color:rgb(177, 213, 243);
+  font-size:1.2em;
+  color:rgb(214, 233, 248);
   font-family: fantasy;
 }
 .footer-contact{
@@ -643,6 +649,8 @@ h2{
   text-decoration: none;
   font-size: 1.1em;
 }
+
+
 /*------------------------------------------------------*/
 @media only screen and (max-width: 1199.98px) {
 
@@ -667,10 +675,10 @@ h2{
     }
     .slide-show{
       width:100%;
-      margin-bottom: 10%;
+      margin-bottom: 1%;
     }
     .slide-show img{
-      height:350px;
+      height:400px;
     }
     .slide-show section{
       width:80px;
@@ -687,33 +695,43 @@ h2{
     .process,
     .ICCRC,
     .RCIC{
-        width:90%;
+        width:80%;
+        height: 250px;
         padding-left:8%;
+        margin-left: 8%;
     }
   
     .cards-section{
       padding-left: 0.1%;
     }
     .card{
-     width:90%;
-     margin-left: 5%;
+     width:78%;
+     margin-left: 12%;
      padding-top: 10px;
     }
-  
+  .moreBtn{
+    padding-top:1%;
+  }
     .card-img{
       width:60%;
       height:50%;  
     }
     .process-btn{
-      margin-left: -12%;
+      margin-left: -5%;
+      margin-top: 8%;
+      padding-top: 1%;
+    }
+    .rcic-moreBtn{
+      margin-top: 6%;
+      padding-top: 1%;
     }
   
     .RCIC-section{
       background-color:none;
     }
     .RCIC-homeImg{
-      width: 50%;
-      margin-left: 28%;
+      width: 300px;
+      margin-left: 10%;
   
     }
   
@@ -745,6 +763,9 @@ h2{
     .ICCRC,
     .RCIC{
       padding-top:5%;
+      margin-left:1.5%;
+      width:90%
+
     }
     .card{
       width:70%;
@@ -756,6 +777,7 @@ h2{
     .moreBtn{
       padding-top: 1%;
       margin-left: 0%;
+      margin-top:5%;
     }
     .permanent-btn{
       margin-top: -5%;
@@ -767,10 +789,16 @@ h2{
       margin-top:8%;
       margin-left: -5%;
     }
+    .contact-btn-more{
+      margin-top:-5%;
+    }
     .contact-detail{
       padding-bottom:15%;
    }
-   
+   .RCIC-homeImg{
+     width:300px;
+     margin-left: 0;
+   }
    .contact-QR{
      width:25%;
    }
@@ -1071,8 +1099,8 @@ h2{
     background-color:none;
   }
   .RCIC-homeImg{
-    width: 50%;
-    margin-left: 28%;
+    width: 300px;
+    margin-left: 0;
 
   }
   .moreBtn{
@@ -1350,7 +1378,12 @@ h2{
   .ICCRC,
   .RCIC{
       padding-left:5%;
+      margin-left: 1%;
       height:220px;
+  }
+  .RCIC-homeImg{
+    width:250px;
+    margin-left: 0;
   }
   .studyabroad-wrapper{
     width:80%;
@@ -1429,6 +1462,13 @@ h2{
   }
 }
 @media only screen and (max-width: 361px){
+  .company-introduction,
+  .process,
+  .ICCRC,
+  .RCIC{
+    height:200px;
+    margin-left: 2%;
+  }
   .personal-introduction
   {
    width:100%;
@@ -1510,6 +1550,11 @@ h2{
   .ICCRC,
   .RCIC{
     height:200px;
+    margin-left: 2%;
+  }
+  .RCIC-homeImg{
+    width:200px;
+    margin-left: 0;
   }
   .process{
     padding-left: 0;
