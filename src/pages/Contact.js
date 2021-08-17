@@ -24,15 +24,18 @@ const Contact = () => {
                     <br/>
                     <span><strong>邮箱:</strong> <a href="gaoshumei2016@gmail.com">gaoshumei2016@gmail.com</a></span>
                     <br/>
-                    <span><strong>微信:</strong> CNGZGSM   </span>
-                    <br/>
-                    <span><strong>公众号:</strong> 我在枫叶国 </span>
-                    <br/>
-                    <span><strong>小红书:</strong> 班夫路书/RED ID: 1042407420 </span>
-                    <br/> 
+                   
                 </div>
                 <div className="contact-QR">
                     <img src={QR} alt="QR" className="QR"/>
+                    <div className="contact-info-QR">
+                        <span><strong>微信:</strong> CNGZGSM   </span>
+                        <br/>
+                        <span><strong>公众号:</strong> 我在枫叶国 </span>
+                        <br/>
+                        <span><strong>小红书:</strong> 班夫路书/RED ID: 1042407420 </span>
+                        <br/> 
+                    </div>
                 </div>
                 {/*<form className="contact-form" onSubmit={handleSubmit}>
                             <div className="contact-header">

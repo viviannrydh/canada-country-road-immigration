@@ -505,6 +505,10 @@ h2{
   margin-left:-42%;
 }
 
+.contact-info-QR{
+  margin-left: -40%;
+  margin-top: 10%;
+}
 .input-item,
 .input-area{
   display:flex;
@@ -1019,6 +1023,14 @@ h2{
       padding-top: 5%;
       padding-bottom: 5%;
     }
+    .QR{
+      width:90%;
+      padding-top: 2%;
+    }
+    .contact-info-QR{
+      margin-left: -20%;
+      margin-top: 0;
+    }
     
   } 
 /*------------------------------------------------------*/
@@ -1254,6 +1266,10 @@ h2{
     width:100%;
     text-align: center;
   }
+  .contact-info-QR{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
 
 }
 
@@ -1326,6 +1342,10 @@ h2{
     padding-top: 10%;
     padding-bottom: 10%;
   }
+  .contact-info-QR{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
 
 }
 
@@ -1365,6 +1385,10 @@ h2{
     margin-left: 5%;
     margin-top: 6%;
     background-color: none;
+  }
+  .contact-info-QR{
+    margin-left: 10%;
+    margin-top: 10%;
   }
 }
 @media only screen and (max-width: 376px){
@@ -1467,6 +1491,10 @@ h2{
     padding-top: 10%;
     padding-bottom: 10%;
   }
+  .contact-info-QR{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
 }
 @media only screen and (max-width: 361px){
   .company-introduction,
@@ -1528,6 +1556,10 @@ h2{
   .footer-wrapper{
     padding-top: 10%;
     padding-bottom: 10%;
+  }
+  .contact-info-QR{
+    margin-left: 10%;
+    margin-top: 10%;
   }
 }
 
@@ -1644,6 +1676,10 @@ h2{
   .footer-wrapper{
     padding-top: 10%;
     padding-bottom: 10%;
+  }
+  .contact-info-QR{
+    margin-left: 10%;
+    margin-top: 10%;
   }
   
 }
