@@ -122,28 +122,23 @@ body{
 .company-introduction:hover
 {
   background-color: rgb(151, 185, 212);
-  cursor: pointer;
 }
 .process:hover
 {
   background-color: rgb(151, 185, 212);
-  cursor: pointer;
 }
 
 .ICCRC:hover
 {
   background-color: rgb(151, 185, 212);
-  cursor: pointer;
 }
 
 .RCIC:hover{
   background-color: rgb(151, 185, 212);
-  cursor: pointer;
 }
 
 .card:hover{
   background-color: rgb(151, 185, 212);
-  cursor: pointer;
 }
 
 
